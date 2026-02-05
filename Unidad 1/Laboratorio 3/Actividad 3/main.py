@@ -1,6 +1,12 @@
 import traductor
 
 def ejecutar_saludos(nombre: str)->None:
+    """
+    Saluda en ingles, espanol, frances, aleman
+    
+    :param nombre: Description
+    :type nombre: str
+    """
     print("En ingles -> " + traductor.saludo_ingles(nombre))
     print("En espanol -> " + traductor.saludo_espanol(nombre))
     print("En frances -> " + traductor.saludo_frances(nombre))
